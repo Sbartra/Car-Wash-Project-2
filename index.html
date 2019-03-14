@@ -7,159 +7,206 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {font-family: "Lato", sans-serif}
+body {font-family: "Lato", sans-serif;
+background-color: #b0c4de;
+}
+
 .mySlides {display: none}
+
+img {
+    border-radius: 4px;
+}
 </style>
 <body>
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
+  <div class="w3-bar w3-cyan w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">INICIO</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICIOS</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PRECIOS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACTO</a>
     <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <button class="w3-padding-large w3-button" title="More">MAS <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-        <a href="#" class="w3-bar-item w3-button">Extras</a>
-        <a href="#" class="w3-bar-item w3-button">Media</a>
+        <a href="#" class="w3-bar-item w3-button">Ofertas</a>
+        <a href="#" class="w3-bar-item w3-button">Productos</a>
+        <a href="#" class="w3-bar-item w3-button">Sucursales</a>
       </div>
     </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    <a href="https://www.google.co.uk/" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICIOS</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PRECIOS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACTO</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
 </div>
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-  <!-- Automatic Slideshow Images -->
+   <!-- Automatic Slideshow Images -->
   <div class="mySlides w3-display-container w3-center">
-    <img src="/w3images/la.jpg" style="width:100%">
+    <img src="https://i.ibb.co/9qhFCbn/carro.jpg" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Los Angeles</h3>
-      <p><b>We had the best time playing at Venice Beach!</b></p>   
+      <h3>Basico</h3>
+      <p><b>Lavado y Secado.</b></p>   
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="/w3images/ny.jpg" style="width:100%">
+    <img src="https://images.honda.ca/models/H/Models/2018/civic_type_r/hondaca_lifeStyle.png?width=525" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>New York</h3>
-      <p><b>The atmosphere in New York is lorem ipsum.</b></p>    
+      <h3>Profesional</h3>
+      <p><b>Incluye los Tableros.</b></p>    
     </div>
   </div>
   <div class="mySlides w3-display-container w3-center">
-    <img src="/w3images/chicago.jpg" style="width:100%">
+    <img src="https://i.ibb.co/2ZRZg6T/carro-futuro.jpg" style="width:100%">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Chicago</h3>
-      <p><b>Thank you, Chicago - A night we won't forget.</b></p>    
+      <h3>Premium Gold</h3>
+      <p><b>Lavado y Encerado Total.</b></p>    
     </div>
   </div>
 
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-    <h2 class="w3-wide">THE BAND</h2>
-    <p class="w3-opacity"><i>We love music</i></p>
-    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+    <h3 class="w3-center">SERVICIOS</h3>
+    <p class="w3-center"><em>Aqui pueden apreciar nuestros servicios.<br>Presione las imagenes para cambiar de vista.<br></em></p><br>
+  
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <p>Lavado de espuma de nieve</p>
+        <img src="https://i.ibb.co/Tw14CVB/car-wash-600x400.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Lavado a espuma."/>
       </div>
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+  
+      <div class="w3-col m3">
+        <p>Lavado y Secado</p>
+        <img src="https://i.ibb.co/d5RFRZS/secado.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Lavado y Secado."/>
       </div>
-      <div class="w3-third">
-        <p>Name</p>
-        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+  
+      <div class="w3-col m3">
+        <p>Capa Mojada service</p>
+        <img src="https://i.ibb.co/599mV5p/hand-car-wash.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Capa Mojada"/>
       </div>
+  
+      <div class="w3-col m3">
+        <p>Mini Valet</p>
+        <img src="https://i.ibb.co/PCsMQGs/mini-valet-2.jpg" style="width:100%"onclick="onClick(this)" class="w3-hover-opacity" alt="Mini Valet."/>
+      </div>
+    </div>
+  
+    <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+              <p>Gold Service</p>
+              <img src="https://i.ibb.co/k8QrQf4/gold-wash-blue-planet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Servicio Dorado"/>
+            </div>
+  
+      <div class="w3-col m3">
+        <p>Interior/Exterior Valet</p>
+        <img src="https://i.ibb.co/W2SKLHj/goldwash.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Lavado y Secado Total. "/>
+      </div>
+  
+      <div class="w3-col m3">
+        <p>Lavado Movil</p>
+        <img src="https://i.ibb.co/pdMjQJ5/mobilewash.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Lavado Movil."/>
+      </div>
+  
+      <div class="w3-col m3">
+        <p>Full Valet</p>
+        <img src="https://i.ibb.co/Cn0s4nW/IMG-1940-obs.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Full Valet"/>
+      </div>
+      <center>
+      <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px"> <a href="vermas.html" >VER MAS</a></button>-->
+      </center>
     </div>
   </div>
 
-  <!-- The Tour Section -->
-  <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">TOUR DATES</h2>
-      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
-
-      <ul class="w3-ul w3-border w3-white w3-text-grey">
-        <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-        <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
-      </ul>
-
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>New York</b></p>
-            <p class="w3-opacity">Fri 27 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Paris</b></p>
-            <p class="w3-opacity">Sat 28 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>San Francisco</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-      </div>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption" class="w3-opacity w3-large"></p>
     </div>
   </div>
 
-  <!-- Ticket Modal -->
-  <div id="ticketModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-teal w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('ticketModal').style.display='none'" 
-       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
-      </header>
-      <div class="w3-container">
-        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="How many?">
-        <p><label><i class="fa fa-user"></i> Send To</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="Enter email">
-        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
-      </div>
+  <!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="tour">
+        <h2>PRECIOS</h2>
+        <p>Nuestros precios le sorprenderan.</p><br>
+        <div class="w3-third w3-margin-bottom">
+          <ul class="w3-ul w3-border w3-hover-shadow">
+            <li class="w3-theme">
+              <p class="w3-xlarge">Basico</p>
+            </li>
+            <li class="w3-padding-16"><b>Lavado y Secado</b></li>
+            <li class="w3-padding-16"><b>Umbral de las puertas</b></li>
+            <li class="w3-padding-16"><b>Lavado a mano</b></li>
+            <li class="w3-padding-16"><b>Brillado de Ruedas</b></li>
+            <li class="w3-padding-16">
+            <span class="w3-opacity">Desde</span>  
+            <h2 class="w3-wide"><i class="fa fa-usd"></i> 10</h2>
+             
+            </li>
+            <li class="w3-theme-l5 w3-padding-24">
+              <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="w3-third w3-margin-bottom">
+          <ul class="w3-ul w3-border w3-hover-shadow">
+            <li class="w3-theme-l2">
+              <p class="w3-xlarge">Profesional</p>
+            </li>
+            <li class="w3-padding-16"><b>Seco y Cera</b></li>
+            <li class="w3-padding-16"><b>Lavado y Secado</b></li>
+            <li class="w3-padding-16"><b>Vacuum</b></li>
+            <li class="w3-padding-16"><b>Incluye Tablero</b></li>
+            <li class="w3-padding-16">
+           <span class="w3-opacity">Desde</span>    
+              <h2 class="w3-wide"><i class="fa fa-usd"></i> 25</h2>
+              
+            </li>
+            <li class="w3-theme-l5 w3-padding-24">
+              <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="w3-third w3-margin-bottom">
+          <ul class="w3-ul w3-border w3-hover-shadow">
+            <li class="w3-theme">
+              <p class="w3-xlarge">Premium Gold</p>
+            </li>
+            <li class="w3-padding-16"><b>Lavado y Secado</b></li>
+            <li class="w3-padding-16"><b>Brillado Total</b></li>
+            <li class="w3-padding-16"><b>Lavado Completo</b> Por dentro y por fuera</li>
+            <li class="w3-padding-16"><b>Encerado Total</b> por dentro y por fuera</li>
+            <li class="w3-padding-16">
+            <span class="w3-opacity">Desde</span>    
+              <h2 class="w3-wide"><i class="fa fa-usd"></i> 50</h2>
+              
+            </li>
+            <li class="w3-theme-l5 w3-padding-24">
+              <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+            </li>
+          </ul>
+        </div>
     </div>
-  </div>
-
   <!-- The Contact Section -->
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <h2 class="w3-wide w3-center">CONTACTO</h2>
+    <p class="w3-opacity w3-center"><i>Tus Comentarios son importantes.</i></p>
     <div class="w3-row w3-padding-32">
       <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+        <i class="fa fa-map-marker" style="width:30px"></i> Tarapoto, Peru<br>
         <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
         <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
       </div>
@@ -174,7 +221,7 @@ body {font-family: "Lato", sans-serif}
             </div>
           </div>
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+          <button class="w3-button w3-black w3-section w3-right" type="submit">ENVIAR</button>
         </form>
       </div>
     </div>
@@ -184,18 +231,23 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
-
+<center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71355.52896406615!2d-76.39806812752703!3d-6.496845446852566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b0a08d45de2063%3A0xdc027cb4043f446c!2sTarapoto%2C+Peru!5e1!3m2!1sen!2suk!4v1552566117683" width="1000" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</center>
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
+<footer class="w3-center w3-cyan w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Inicio</a>
+    <div class="w3-xlarge w3-section">
+      <a href="https://www.facebook.com/"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <!--<i class="fa fa-snapchat w3-hover-opacity"></i>-->
+      <!--<i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
+      <!--<i class="fa fa-twitter w3-hover-opacity"></i>-->
+      <a href="https://www.linkedin.com/in/segundo-bartra-5b979a175/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+      <a href="https://github.com/"><i class="fa fa-github w3-hover-opacity"></i></a>
+    </div>
+    <p>Created by: <a href="https://orioltech.netlify.com/" title="Orioltech" target="_blank" class="w3-hover-text-green">Segundo Bartra</a></p>
+  </footer>
 
 <script>
 // Automatic Slideshow - change image every 4 seconds
@@ -232,6 +284,18 @@ window.onclick = function(event) {
   }
 }
 </script>
+
+<script>
+      // Modal Image Gallery
+function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+</script>
+
 
 </body>
 </html>
